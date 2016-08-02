@@ -40,11 +40,15 @@ var numPennies = parseInt(inputAmt/.01);
   coinPurse.nickels = numNickels;
   coinPurse.pennies = numPennies;
 
+  console.log(coinPurse)
+
   return coinPurse;
 }
 
-var coins = coinCounter()
-console.log(coinPurse);
+var coins = prompt("Enter a dollar amount");
+coinCounter(coins);
+
+
 
 
 
